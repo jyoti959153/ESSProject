@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="EssTestcases.AddThirdPartyTest">
+        <methods>
+          <include name="ConfigAC"/>
+          <include name="ConfigBT"/>
+          <include name="ConfigAS"/>
+          <include name="ConfigAT"/>
+          <include name="ConfigBC"/>
+          <include name="ConfigBS"/>
+          <include name="ConfigBM"/>
+          <include name="ctp"/>
+        </methods>
+      </class> <!-- EssTestcases.AddThirdPartyTest -->
+      <class name="EssTestcases.CreateWarehouseTest">
+        <methods>
+          <include name="ConfigAC"/>
+          <include name="ConfigBT"/>
+          <include name="ConfigAS"/>
+          <include name="ConfigAT"/>
+          <include name="ConfigBS"/>
+          <include name="ConfigBC"/>
+          <include name="cw"/>
+          <include name="ConfigBM"/>
+        </methods>
+      </class> <!-- EssTestcases.CreateWarehouseTest -->
+      <class name="EssTestcases.CreateVendorProposalTest">
+        <methods>
+          <include name="ConfigAS"/>
+          <include name="ConfigAC"/>
+          <include name="ConfigBT"/>
+          <include name="ConfigAT"/>
+          <include name="ConfigBS"/>
+          <include name="ConfigBC"/>
+          <include name="cvp"/>
+          <include name="ConfigBM"/>
+        </methods>
+      </class> <!-- EssTestcases.CreateVendorProposalTest -->
+      <class name="EssTestcases.AddProductTest">
+        <methods>
+          <include name="ConfigAC"/>
+          <include name="ConfigAS"/>
+          <include name="ConfigBT"/>
+          <include name="ap"/>
+          <include name="ConfigAT"/>
+          <include name="ConfigBS"/>
+          <include name="ConfigBC"/>
+          <include name="ConfigBM"/>
+        </methods>
+      </class> <!-- EssTestcases.AddProductTest -->
+      <class name="EssTestcases.CreateProductTest">
+        <methods>
+          <include name="ConfigAC"/>
+          <include name="ConfigAS"/>
+          <include name="ConfigBT"/>
+          <include name="ConfigAT"/>
+          <include name="ConfigBS"/>
+          <include name="ConfigBC"/>
+          <include name="ConfigBM"/>
+          <include name="cp"/>
+        </methods>
+      </class> <!-- EssTestcases.CreateProductTest -->
+      <class name="EssTestcases.VerifyDashboardTest">
+        <methods>
+          <include name="dashBoard"/>
+          <include name="ConfigAS"/>
+          <include name="ConfigAC"/>
+          <include name="ConfigBT"/>
+          <include name="ConfigAT"/>
+          <include name="ConfigBS"/>
+          <include name="ConfigBC"/>
+          <include name="ConfigBM"/>
+        </methods>
+      </class> <!-- EssTestcases.VerifyDashboardTest -->
+      <class name="EssTestcases.CreateProspectTest">
+        <methods>
+          <include name="cp"/>
+          <include name="ConfigAC"/>
+          <include name="ConfigAS"/>
+          <include name="ConfigBT"/>
+          <include name="ConfigAT"/>
+          <include name="ConfigBC"/>
+          <include name="ConfigBS"/>
+          <include name="ConfigBM"/>
+        </methods>
+      </class> <!-- EssTestcases.CreateProspectTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
